@@ -19,7 +19,6 @@ variables:
 steps:
 - task: UseDotNet@2
   displayName: 'Use .NET Core SDK $(dotnetSdkVersion)'
-<<<<<<< HEAD
   inputs:
     version: '$(dotnetSdkVersion)'
 
